@@ -112,7 +112,7 @@ bool checkBust(int& sum, vector<card>& hand) {
         return false;
     }
 }
-void playBlackJack() {
+void playBlackJack() { // BlackJack
     char playAgain = 'Y';
     
     while (playAgain == 'Y' || playAgain == 'y') {
