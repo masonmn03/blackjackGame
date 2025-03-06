@@ -13,9 +13,7 @@ struct card {
     int value;
 };
 
-int rollDie();
 void outputHand(vector<card> hand, int numCards, string player, int sum);
 bool checkBust(int sum);
-void craps();
-void scraps();
 void blackJack();
+
